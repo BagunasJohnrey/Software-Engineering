@@ -216,6 +216,22 @@ body {
         @apply text-main-blue px-4 py-3 no-underline block text-left hover:bg-main-blue hover:text-main-white transition-colors rounded-md;
     }
 
+    /*---------Hazel Styles ------------*/
+    .body-bg{
+        @apply bg-blue-100;
+    }
+    .nav-header{
+        @apply text-center;
+    }
+    .main-style{
+        @apply bg-linear-65 from-blue-200 to-blue-300 m-0 p-10 md:m-30 md:rounded-2xl ;
+    }
+    
+    
+
+
+    /*------ end of hazel styles-------*/
+
     /* ---------- Johnrey Styles ---------- */
 
     /* ---------- Font Styles ---------- */
