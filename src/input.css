@@ -358,6 +358,14 @@
     @apply absolute top-1/2 -translate-y-1/2 -left-2 -z-10 h-4 w-4 rotate-45 border-b border-l border-gray-200 bg-white;
   }
 
+  .page-buttons {
+    @apply flex justify-between mt-5;
+  }
+
+  .page-buttons a {
+      @apply no-underline px-4 py-2 bg-main-blue text-white rounded hover:bg-white hover:border hover:border-main-blue hover:text-main-blue transition-colors;
+  }
+
   /* ---------- End of Johnrey Styles ---------- */
 
 
@@ -517,8 +525,8 @@
     @apply transition-transform duration-300 mr-1;
   }
 
-  details[open] .toc-icon {
-    transform: rotate(90deg);
+  .rotate-on-open {
+    @apply [&[open]_.toc-icon]:rotate-90;
   }
 
   .emoji {
@@ -729,6 +737,9 @@
   animation: float-side 7s ease-in-out infinite;
 }
 
+.h1Noilee {
+  @apply text-2xl md:text-3xl font-bold text-center;
+}
 }
 
 /* Hazel's styles */
