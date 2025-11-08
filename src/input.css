@@ -781,9 +781,6 @@
 /* Hazel's end styles */
 
 /*jeric start*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Custom styles using Tailwind @apply */
 .body-style {
