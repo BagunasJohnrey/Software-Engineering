@@ -780,3 +780,159 @@
 
 /* Hazel's end styles */
 
+/*jeric start*/
+
+/* Custom styles using Tailwind @apply */
+.body-style {
+  @apply bg-gradient-to-br from-main-white via-content-bg to-purple-50 
+         text-main-blue min-h-screen flex flex-col scroll-smooth;
+}
+
+.site-header {
+  @apply w-full bg-white shadow-md;
+}
+
+.header-container {
+  @apply max-w-7xl mx-auto flex justify-between items-center px-6 py-4;
+}
+
+.brand-container {
+  @apply flex items-center gap-3;
+}
+
+.logo {
+  @apply w-10 h-10;
+}
+
+.brand-logo {
+  @apply text-2xl font-bold text-main-blue hover:text-purple-600 transition;
+}
+
+/* ---------------------------------
+   Navigation + Auth Styles
+--------------------------------- */
+
+/* Hidden checkbox */
+.menu-toggle {
+  @apply hidden peer;
+}
+
+/* Hamburger button */
+
+
+/* Navigation wrapper */
+.nav-menu {
+  @apply flex items-center gap-6 md:flex-row flex-col 
+         md:static absolute bg-white md:bg-transparent 
+         w-full md:w-auto left-0 top-16 md:top-auto 
+         md:opacity-100 opacity-0 peer-checked:opacity-100 
+         transition-all duration-300 ease-in-out;
+}
+
+/* Dropdown parent */
+.dropdown-container {
+  @apply relative inline-block text-left;
+}
+
+/* Dropdown button */
+.dropdown-button {
+  @apply text-main-blue font-semibold hover:text-purple-600 
+         transition inline-flex items-center gap-1;
+}
+
+/* Dropdown menu content */
+.dropdown-content {
+  @apply hidden absolute bg-white shadow-lg rounded-lg mt-2 
+         min-w-[10rem] z-10 flex flex-col;
+}
+
+/* Show dropdown on hover */
+.dropdown-container:hover .dropdown-content {
+  @apply block;
+}
+
+/* Dropdown links */
+.dropdown-link {
+  @apply px-4 py-2 text-sm text-main-blue hover:bg-purple-100 
+         hover:text-purple-700 transition;
+}
+
+/* Navigation links */
+.nav-link {
+  @apply text-main-blue font-medium hover:text-purple-600 
+         transition inline-flex items-center gap-1;
+}
+
+/* Authentication container */
+.auth-container {
+  @apply flex items-center gap-4;
+}
+
+/* Authentication button */
+.auth-btn {
+  @apply bg-main-blue text-white font-semibold px-4 py-2 
+         rounded-lg hover:bg-purple-700 transition;
+}
+
+/* -------------------------------
+   Hamburger + Navigation Styling
+-------------------------------- */
+
+/* Hide checkbox */
+.hidden.peer {
+  @apply hidden peer;
+}
+
+/* Hamburger button */
+.menu-button {
+  @apply md:hidden lg:hidden xl:hidden text-main-blue cursor-pointer;
+}
+
+/* Navigation menu (visible on desktop, toggle on mobile) */
+.nav-menu {
+  @apply flex items-center gap-6 md:flex-row flex-col 
+         md:static absolute bg-white md:bg-transparent 
+         w-full md:w-auto left-0 top-16 md:top-auto 
+         md:opacity-100 opacity-0 
+         peer-checked:opacity-100 
+         transition-all duration-300 ease-in-out;
+}
+
+/* Dropdown menu setup */
+.dropdown-container {
+  @apply relative inline-block text-left;
+}
+
+.dropdown-button {
+  @apply text-main-blue font-semibold hover:text-purple-600 transition inline-flex items-center gap-1;
+}
+
+.dropdown-content {
+  @apply hidden absolute bg-white shadow-lg rounded-lg mt-2 min-w-[10rem] z-10 flex flex-col;
+}
+
+.dropdown-container:hover .dropdown-content {
+  @apply block;
+}
+
+.dropdown-link {
+  @apply px-4 py-2 text-sm text-main-blue hover:bg-purple-100 hover:text-purple-700 transition;
+}
+
+/* Regular nav links */
+.nav-link {
+  @apply text-main-blue font-medium hover:text-purple-600 transition inline-flex items-center gap-1;
+}
+
+/* Authentication container */
+.auth-container {
+  @apply flex items-center gap-4;
+}
+
+/* Login button */
+.auth-btn {
+  @apply bg-main-blue text-white font-semibold px-4 py-2 rounded-lg hover:bg-purple-700 transition;
+}
+
+
+/*jeric end*/
