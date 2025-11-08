@@ -821,9 +821,7 @@
 }
 
 /* Hamburger button */
-.menu-button {
-  @apply md:hidden lg:hidden xl:hidden text-main-blue cursor-pointer;
-}
+
 
 /* Navigation wrapper */
 .nav-menu {
