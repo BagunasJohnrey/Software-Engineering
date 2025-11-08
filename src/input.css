@@ -757,7 +757,7 @@
   @apply   bg-linear-65 from-blue-400 to-sky-300 rounded-xl p-5 sm:p-6 lg:p-8    ;
 }
 .h2-hazel{
-  @apply text-center text-main-white text-xl sm:text-2xl font-semibold mb-4  ;
+  @apply text-center text-main-white text-xl sm:text-2xl font-semibold mb-4 hover:transition hover:text-neutral-gray;
 }
 .div2hazel{
   @apply text-main-white space-y-2 text-sm sm:text-base;
@@ -766,16 +766,16 @@
   @apply list-disc list-inside text-main-white space-y-2 text-sm sm:text-base;
 }
 .sectionhazel{
-  @apply bg-linear-65 from-blue-400 to-sky-300 rounded-xl p-5 sm:p-6 lg:p-8  ;
+  @apply bg-linear-65 from-blue-400 to-sky-300 rounded-xl p-5 sm:p-6 lg:p-8   ;
 }
 .hazelh2{
-  @apply text-main-white text-center text-xl sm:text-2xl font-semibold mb-6;
+  @apply text-main-white text-center text-xl sm:text-2xl font-semibold mb-6 hover:transition hover:text-neutral-gray;
 }
 .dhazel{
   @apply text-main-white space-y-4 text-sm sm:text-base leading-relaxed;
 }
 .hazel-2{
-  @apply text-center text-main-white text-xl sm:text-2xl font-semibold mb-6;
+  @apply text-center text-main-white text-xl sm:text-2xl font-semibold mb-6 hover:transition hover:text-neutral-gray;
 }
 
 /* Hazel's end styles */
